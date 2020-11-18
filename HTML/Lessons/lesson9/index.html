@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>lesson9</title>
+    </head>
+    <body>
+        <form action="" name="form">
+            <fieldset>
+                <legend>Регистрационная форма пользователя</legend>
+                <p>
+                    Имя<input type="text" size="30" name="username">
+                </p>
+                <p>
+                    <label for="Укажите возраст" name="укажите возраст">Укажите возраст</label>
+                    <input type="text" list="Укажите возраст">
+                    <datalist id="Укажите возраст">
+                        <option value="10-15лет">10-15лет</option>
+                        <option value="15-20лет">15-20лет</option>
+                        <option value="20-30лет">20-30лет</option>
+                        <option value="30-40лет">30-40лет</option>
+                        <option value="старше 40">старше 40</option>
+                    </datalist>
+                </p>
+                <p>
+                    укажите пол:
+                    <label><input type="radio" name="sex">мужской</label>
+                    <label><input type="radio" name="sex">женский</label>
+                </p>
+                <p>
+                    <label for="страна проживания" name="страна проживания">страна проживания</label>
+                    <select name="страна проживания" id="страна проживания">
+                        <option value="Беларусь">Беларусь</option>
+                        <option value="Российская Федерация">Российская Федерация</option>
+                        <option value="Другое государство">Другое государство</option>
+                    </select>
+                </p>
+                <p>
+                    Владение языками:
+                    <label><input type="checkbox" name="bel" value="bel">белорусский</label>
+                    <label><input type="checkbox" name="rus" value="rus">русский</label>
+                    <label><input type="checkbox" name="ang" value="ang">английский</label>
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>
