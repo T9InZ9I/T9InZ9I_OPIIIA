@@ -1,0 +1,26 @@
+.p_1, .p_2 {
+    width: 500px;
+    padding: 1em;
+}
+
+.p_1 {
+    background-color: orange;
+    text-align: left;
+}
+
+.p_2 {
+    background-color: violet;
+    text-align: right;
+}
+
+.first, span:nth-of-type(1) {
+    text-decoration: underline dotted #000;
+}
+
+.second, span:nth-of-type(2) {
+    text-decoration: underline dashed #000;
+}
+
+.third, span:nth-of-type(3) {
+    text-decoration: underline wavy #000;
+}
