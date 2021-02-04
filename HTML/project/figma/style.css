@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
+
+body, div, h1, h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/*---header---*/
+
+.head-block {
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 740px;
+    background: url(Rectangle.png);
+}
+
+.header {
+    max-width: 1100px;
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto 112px;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.title {
+    margin: 0 auto 35px;
+    max-width: 734px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.discripsion {
+    margin: 0 auto 20px;
+    max-width: 734px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/*---date---*/
+
+.red {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F7654A;
+}
+
+.black {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.small {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+
+.date-box {
+    display: grid;
+    margin: 0 auto;
+    padding: 57px 130px;
+    max-width: 1110px;
+    background-color: #F7F7F7;;
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+    transform: translateY(150px);
+}
+
+/*----project---*/
+
+.text-project {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
+
+.vid {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.polosa {
+    max-width: 55px;
+    margin: 0 auto;
+}
+
+.gaz {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+.mi {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.arena {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.proj-arena {
+    display: grid;
+    margin: 0 auto;
+    max-width: 1110px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.project {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
+.text {
+    margin: 0 auto 60px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+}
+
+/*--------request1------*/
+
+.cam {
+    margin: 0 auto;
+    max-width: 537px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 66px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
+}
+
+.real {
+    margin: 0 auto;
+    max-width: 562px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.request_1 {
+    max-width: 1920px;
+    margin: 0 auto 150px;
+    background-color: #F7654A;
+    display: flex;
+    justify-content: space-between;
+}
+
+.request-text_1 {
+    padding-top: 30px;
+    padding-bottom: 45px;
+    max-width: 537px;
+    margin: 0 auto;
+}
+
+.request-bottom_1 {
+    margin: 73px auto 73px;
+    max-width: 175px;
+    max-height: 49px;
+    background-color: #FFFFFF;
+}
+
+.mail-konvert {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.vash {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000000
+}
+
+/*--------services----*/
+
+.text_services{
+    margin: 0 auto 65px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.stroi {
+    margin: 0 auto;
+    padding-bottom: 59px;
+    max-width: 172px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.zavod {
+    padding: 59px 145px 0;
+    font-size: 48px;
+    line-height: 40px;
+}
+
+.services_item {
+    margin: 10px auto;
+    max-width: 350px;
+    background: #F7F7F7;
+}
+
+.services_item_box {
+    display: grid;
+    max-width: 1110px;
+    margin: 0 auto 150px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+/*----portfolio---*/
+
+.portf {
+    margin: 0 auto;
+    max-width: 480px;
+}
+
+.portfolio {
+    margin: 0 auto;
+}
+
+.portfolio-box {
+    max-width: 1920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
+    margin: 0 auto 150px;
+}
