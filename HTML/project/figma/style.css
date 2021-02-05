@@ -288,3 +288,121 @@ body, div, h1, h2 {
     grid-template-columns: repeat(auto-fill, minmax(480px, 1fr));
     margin: 0 auto 150px;
 }
+
+/*---questions---*/
+
+.questions-text {
+    text-align: center;
+    margin: 0 auto 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.qlist {
+    list-style: none;
+}
+
+.qli {
+    margin-top: 40px;
+}
+
+.questions-list {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+}
+
+.lorem {
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.questions-box {
+    max-width: 730px;
+    margin: 0 405px 150px;
+}
+
+/*---partners---*/
+
+.partners-text  {
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.partners {
+    max-width: 170px;
+}
+
+.partners-content {
+    margin: 0 407PX;
+    padding: 64px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+}
+
+.partners-box {
+    background-color: #404149;
+    max-width: 1920px;
+    margin: 0 auto 150px;
+}
+
+/*---reviews---*/
+
+.reviews-item-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.kovich-lorem {
+    margin-top: 79px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+}
+
+.kovich {
+    position: absolute;
+    top: -4px;
+    left: 28px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 142px;
+    text-transform: uppercase;
+    color: #F7654A
+}
+
+.reviews-item-content {
+    position: relative;
+    padding: 83px 30px 38px;
+    max-width: 350px;
+}
+
+.reviews-item {
+    margin: 0 auto;
+    max-width: 350px;
+}
